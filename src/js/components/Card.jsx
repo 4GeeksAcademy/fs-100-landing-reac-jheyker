@@ -3,7 +3,7 @@ import React from "react"
 
 export const Card = () => {
     return (
-        <div className="col-sm-12 col-md-6 col-lg-3 my-2">
+        <div className="col-sm-12 col-md-6 col-lg-4 my-2">
             <div className="card" style={{ width: '18rem' }} >
                 <img src="https://picsum.photos/200" className="card-img-top" alt="..." />
                 <div className="card-body">

@@ -9,7 +9,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 const Home = () => {
 	return (
-		<>
+		<div>
 			<Navbar />
 			<div className="container d-flex justify-content-center flex-column">
 				<Jumbotron />
@@ -22,8 +22,8 @@ const Home = () => {
 					</div>
 				</div>
 			</div >
-			<Footer/>
-		</>
+			<Footer />
+		</div>
 	);
 };
 
